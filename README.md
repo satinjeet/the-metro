@@ -48,10 +48,6 @@ need this, it's for authoring `.tsx` configs with autocomplete:
 npm install -D @the-metro/cli
 ```
 
-(Needs a GitHub PAT with `read:packages` in `~/.npmrc` while this package is
-under a private registry namespace — see [GitHub's docs on installing a
-package](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package).)
-
 ## Sample configs
 
 [`sample-configs/`](sample-configs) — the DSL's full component reference
