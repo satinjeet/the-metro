@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@the-metro/cli",
+    "noEmit": true,
+    "types": ["@the-metro/cli/tmpl"]
+  },
+  "include": ["sample-configs/**/*.ts", "sample-configs/**/*.tsx"]
+}
